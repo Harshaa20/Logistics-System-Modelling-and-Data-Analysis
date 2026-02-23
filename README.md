@@ -1,83 +1,25 @@
-Logistics Systems Modeling & Data Analysis
-Overview
-
-This project analyzes a logistics/production system to identify bottlenecks, inefficiencies, and improvement opportunities using data analysis and simulation modeling techniques. The objective was to understand how throughput, lead time, and work-in-progress (WIP) behave under different system configurations and to propose data-backed optimization strategies.
-
-The project was completed as part of a Logistics Systems Modeling and Analysis course at Uppsala University.
-
-Problem Statement
-
-Logistics and production systems often suffer from delays, high WIP, and underutilized capacity due to poorly balanced processes and bottlenecks.
-The goal of this project was to:
-
-Analyze system performance using data and simulation
-
-Identify bottlenecks and delay patterns
-
-Evaluate alternative configurations to improve throughput and reduce lead time
-
-Data & Inputs
-
-Process flow data (arrival rates, processing times, routing logic)
-
-Statistical distributions representing real-world variability
-
-System layout and capacity constraints
-
-Methodology
-
-The analysis followed a structured, data-driven approach:
-
-Data Analysis
-
-Exploratory analysis of processing times and flow behavior
-
-Identification of variability and congestion points
-
-Simulation Modeling
-
-Built discrete-event simulation models using FACTS Analyzer
-
-Modeled system behavior under different demand and capacity scenarios
-
-Performance Metrics Evaluated
-
-Throughput
-
-Lead time
-
-Work-in-Progress (WIP)
-
-Resource utilization
-
-Scenario Testing
-
-Bottleneck-focused improvements
-
-Layout and buffer size adjustments
-
-Comparison of baseline vs optimized scenarios
-
-Key Findings
-
-Identified critical bottlenecks that disproportionately increased lead time
-
-Demonstrated the relationship between WIP and throughput under different configurations
-
-Showed that targeted capacity balancing and buffer adjustments significantly improved system performance
-
-Tools & Technologies
-
-FACTS Analyzer – logistics system simulation
-
-Excel – data analysis and result comparison
-
-Statistical analysis – distribution fitting and performance evaluation
-
-Outcomes
-
-Reduced simulated lead times through optimized system configurations
-
-Improved throughput consistency under variable demand conditions
-
-Delivered clear, data-backed recommendations for system improvement
+# Logistics Systems Modeling & Data Analysis
+A data-driven optimization project focused on identifying bottlenecks and improving throughput in complex production environments. This study was conducted as part of the Logistics Systems Modeling and Analysis curriculum at Uppsala University.
+## Project Overview
+This project investigates the dynamics of a production system to uncover inefficiencies that lead to high Work-In-Progress (WIP) and delayed lead times. By leveraging Discrete-Event Simulation (DES), I modeled real-world variability to stress-test system configurations and propose data-backed optimization strategies.
+## Objectives
+Analyze performance metrics using statistical data and simulation.
+Identify critical bottlenecks and patterns causing systemic delays.
+Evaluate alternative layouts to maximize throughput and minimize lead times.
+## Tools & Technologies
+FACTS Analyzer: Used for high-fidelity discrete-event simulation and bottleneck detection.
+Microsoft Excel: Utilized for data cleaning, processing time analysis, and result comparison.
+Statistical Analysis: Applied distribution fitting and variability modeling to replicate real-world stochastic behavior.
+## Methodology
+Exploratory Data Analysis (EDA): Analyzed arrival rates and processing times to identify congestion points.
+Simulation Modeling: Built a baseline model in FACTS Analyzer to replicate current system constraints and routing logic.
+Performance Metrics: Evaluated the system based on Throughput, Lead Time, WIP, and Resource Utilization.
+Scenario Testing: Conducted comparative analysis between the baseline and optimized configurations (e.g., buffer adjustments and capacity balancing).
+## Key Findings
+Bottleneck Impact: Identified specific workstations that disproportionately increased lead times due to processing variability.
+WIP vs. Throughput: Demonstrated the non-linear relationship between inventory levels and output, pinpointing the "sweet spot" for buffer sizes.
+Optimization Results: Proved that targeted capacity balancing—rather than broad resource increases—significantly stabilized throughput under variable demand.
+## Outcomes
+Reduced Lead Times: Optimized configurations successfully lowered simulated lead times.
+Enhanced Consistency: Improved throughput stability even when subjected to high-variability demand scenarios.
+Actionable Insights: Delivered a set of data-backed recommendations for physical layout and buffer management.
