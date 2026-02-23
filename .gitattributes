@@ -1,4 +1,11 @@
-*ipynb linguist-detectable=false
-*.xlsx linguist-detectable=Excel
+# Force Excel files to be counted in the language bar
+*.xlsx linguist-language=Excel
 *.xlsx linguist-detectable=true
+*.xls linguist-language=Excel
+*.xls linguist-detectable=true
+*.csv linguist-language=Excel
 *.csv linguist-detectable=true
+
+# Ensure Python shows up even if you have Jupyter Notebooks
+*.ipynb linguist-detectable=false
+*.py linguist-detectable=true
