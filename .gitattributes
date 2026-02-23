@@ -1,0 +1,4 @@
+*ipynb linguist-detectable=false
+*.xlsx linguist-detectable=Excel
+*.xlsx linguist-detectable=true
+*.csv linguist-detectable=true
