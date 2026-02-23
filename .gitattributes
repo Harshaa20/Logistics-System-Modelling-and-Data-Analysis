@@ -1,11 +1,13 @@
-# Force Excel files to be counted in the language bar
+# 1. Force Excel and CSV files to be counted
 *.xlsx linguist-language=Excel
 *.xlsx linguist-detectable=true
-*.xls linguist-language=Excel
-*.xls linguist-detectable=true
 *.csv linguist-language=Excel
 *.csv linguist-detectable=true
 
-# Ensure Python shows up even if you have Jupyter Notebooks
-*.ipynb linguist-detectable=false
+# 2. Force Python to be counted (and ignore Jupyter Notebooks if you have them)
 *.py linguist-detectable=true
+*.ipynb linguist-detectable=false
+
+# 3. HIDE other languages (like CSS or HTML) if they are currently "winning"
+*.css linguist-detectable=false
+*.html linguist-detectable=false
